@@ -1,0 +1,11 @@
+# Minimal local install: plain HTTP (TLS terminates at port-forward/ingress),
+# no SSO, no notifications.
+configs:
+  params:
+    server.insecure: true
+
+dex:
+  enabled: false
+
+notifications:
+  enabled: false
